@@ -3,6 +3,33 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // Create a Point P1 using default construtor
+        Point P1 = new Point();
+        System.out.println("P1: " + P1);
+        //set it to (2, 4)
+        P1.setX(2);
+        P1.setY(4);
+        //show it
+        System.out.println("P1: " + P1);
+        //create a Point P2 with the constructor that accepts one value
+        Point P2 = new Point(5);
+        //display it
+        System.out.println("P2: " + P2.toString());
+        //create a point P3 with the constructor that accepts two valies (4, 5)
+        Point P3 = new Point(4, 5);
+        //display it
+        System.out.println("P3: " + P3);
+        //add P1 and P3 into P4
+        Point P4 = P1.add(P3);
+        //display P4
+        System.out.println("P4: " + P4);
+
+        //shift P1 into P1 by 3
+        P1 = P1.shift(3);
+        //display P1
+        System.out.println("P1: " + P1);
+        //compute the distance between P1 and P3
+        double d = P1.distance(P3);
+        System.out.println("The distance between P1 and P3 is: " + d);
     }
 }

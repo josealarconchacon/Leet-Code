@@ -32,12 +32,5 @@ public class Calculator {
     // in case the secondNumber is 0, then return 0
     public double getDivision() {
         return (secondNumber == 0) ? 0 : firstNumber / secondNumber;
-        /*
-            if(secondNumber == 0) {
-                return 0;
-            } else {
-                return firstNumber / secondNumber
-            }
-        */
     }
 }

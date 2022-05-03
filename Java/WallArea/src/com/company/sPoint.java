@@ -26,7 +26,7 @@ public class sPoint {
 
     // // return the distance between this Point and another Point
     public double distance(Point p) {
-        return Math.sqrt((getX() - p.getX()) * (getX() - p.getX()) + (getY() - p.getY()) + (getY() - p.getY()));
+        return Math.sqrt(((this.x - p.x) * (this.x - p.x) + (this.y - p.y) + (this.y - p.y)));
     }
 
     public int getX() {

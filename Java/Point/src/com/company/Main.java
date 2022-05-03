@@ -6,6 +6,6 @@ public class Main {
 	    Segment S1 = new Segment();
 
         S1.getPointB();
-        
+
     }
 }

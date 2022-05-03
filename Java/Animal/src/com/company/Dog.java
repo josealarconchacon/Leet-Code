@@ -8,7 +8,8 @@ public class Dog extends Animal {
 
     public Dog() {
         // construct the parent object first
-        super();
+//        super();
+        this.setSpecies("Canine");
         this.Bred = "unknown";
     }
 

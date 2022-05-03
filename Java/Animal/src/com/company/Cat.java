@@ -4,7 +4,8 @@ public class Cat extends Animal {
     private boolean dangerous;
 
     public Cat() {
-        super();
+//        super();
+        this.setSpecies("Mammal");
         this.dangerous = false;
     }
 
@@ -15,7 +16,7 @@ public class Cat extends Animal {
     }
 
     public String toString() {
-        return  super.toString() + ", " + this.dangerous;
+        return  super.toString() + ", is dangerous: " + this.dangerous;
     }
 
     public boolean equal(Cat C) {

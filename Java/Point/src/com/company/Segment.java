@@ -3,7 +3,7 @@ package com.company;
 public class Segment {
 
     // private member
-    private Point pointA;
+    private int pointA;
     private Point pointB;
 
     // Default Constructor that set both point to 0
@@ -53,10 +53,10 @@ public class Segment {
         return s;
     }
 
-    public Point getPointA(Point pointA) {
-        return this.pointA;
+    public int getPointA() {
+        return pointA;
     }
-    public void setPointA(Point pointA) {
+    public void setPointA(int pointA) {
         this.pointA = pointA;
     }
     public Point getPointB() {

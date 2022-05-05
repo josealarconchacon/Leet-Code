@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-    // - /Users/josealarconchacon/Downloads/jose.txt;
 
         //Ask the user for the path and file name
         Scanner sc = new Scanner(System.in);

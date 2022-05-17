@@ -1,0 +1,102 @@
+{
+  "_buildCommand2" : {
+    "command" : "preview"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "PLAYGROUND-PRODUCT:MaxSubArray_Sources-PLAYGROUND-TARGET:/Users/josealarconchacon/Dropbox/Leet-Code/Swift/DataStruct01/MaxSubArray.playground",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "x86_64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator15.4",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "x86_64"
+          ],
+          "targetArchitecture" : "x86_64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "/Users/josealarconchacon/Dropbox/Leet-Code/Swift/DataStruct01/Build/Intermediates.noindex",
+          "buildProductsPath" : "/Users/josealarconchacon/Dropbox/Leet-Code/Swift/DataStruct01/Build/Products",
+          "derivedDataPath" : "/Users/josealarconchacon/Library/Developer/Xcode/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/josealarconchacon/Library/Developer/Xcode/DerivedData/MaxSubArray-gabgyczfppircbgxiggqjvavdzfx/Index/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/josealarconchacon/Library/Developer/Xcode/DerivedData/MaxSubArray-gabgyczfppircbgxiggqjvavdzfx/Index/PrecompiledHeaders",
+          "pchPath" : "/Users/josealarconchacon/Dropbox/Leet-Code/Swift/DataStruct01/Build/Intermediates.noindex/PrecompiledHeaders"
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPad6,4",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.4",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/josealarconchacon/Dropbox/Leet-Code/Swift/DataStruct01/Build/Intermediates.noindex/Playgrounds/MaxSubArray/ReleaseProducts",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/josealarconchacon/Dropbox/Leet-Code/Swift/DataStruct01/Build/Intermediates.noindex/Playgrounds/MaxSubArray/Intermediates.noindex",
+              "SYMROOT" : "/Users/josealarconchacon/Dropbox/Leet-Code/Swift/DataStruct01/Build/Intermediates.noindex/Playgrounds/MaxSubArray/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "DD6FF3B0-F102-4485-9297-2AEA3A59522F",
+              "TARGET_DEVICE_MODEL" : "iPad6,4",
+              "TARGET_DEVICE_OS_VERSION" : "15.4",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "containerPath" : "/Users/josealarconchacon/Dropbox/Leet-Code/Swift/DataStruct01/MaxSubArray.playground",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/josealarconchacon/Dropbox/Leet-Code/Swift/DataStruct01/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/josealarconchacon/Dropbox/Leet-Code/Swift/DataStruct01/Build/Products",
+      "derivedDataPath" : "/Users/josealarconchacon/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/josealarconchacon/Library/Developer/Xcode/DerivedData/MaxSubArray-gabgyczfppircbgxiggqjvavdzfx/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/josealarconchacon/Library/Developer/Xcode/DerivedData/MaxSubArray-gabgyczfppircbgxiggqjvavdzfx/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/josealarconchacon/Dropbox/Leet-Code/Swift/DataStruct01/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPad6,4",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.4",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "DD6FF3B0-F102-4485-9297-2AEA3A59522F",
+          "TARGET_DEVICE_MODEL" : "iPad6,4",
+          "TARGET_DEVICE_OS_VERSION" : "15.4",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

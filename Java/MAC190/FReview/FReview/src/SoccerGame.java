@@ -10,7 +10,7 @@ public class SoccerGame extends BallGame{
         this.Referee = "Unknown";
         this.SubstitutedA = this.SubstitutedB = 0;
     }
-    
+
     // - Provide a constructor that accepts the names of the teams and the referee’s name.
     public SoccerGame(String firstTeam, String secondTeam, int numOfPlayerInEachTeam, int numOfSubstitutes, int firstTeamScore, int secondTeamScore, int substitutedA, int substitutedB, String referee) throws Exception {
         super(firstTeam, secondTeam, numOfPlayerInEachTeam, numOfSubstitutes, firstTeamScore, secondTeamScore);
@@ -19,10 +19,17 @@ public class SoccerGame extends BallGame{
         this.SubstitutedB = substitutedB;
     }
 
+    public SoccerGame(int substitutedA, int substitutedB, String referee) throws Exception {
+        super();
+        this.SubstitutedB = substitutedB;
+        this.SubstitutedA = substitutedA;
+        this.Referee = referee;
+    }
+
     // - Override the method display to display all private attributes.
     public void Display() {
         super.Display();
-        System.out.println("Referee = " + this.Referee + " SubstitutedA = " + this.SubstitutedA + " SubstitutedB = " + this.SubstitutedB);
+        System.out.println("Referee = " + Referee + " SubstitutedA = " + SubstitutedA + " SubstitutedB = " + SubstitutedB);
     }
 
     // - Override the method Equal to compare two SoccerGames
@@ -47,6 +54,9 @@ public class SoccerGame extends BallGame{
         this.setSecondTeamScore(this.getSecondTeamScore() + 1);
     }
 
+    //- Overload TeamAScored and TeamBScored (no input parameter) to increase the score of the appropriate team by 1.
+
+
     // Provide a method SubstitutionA, SubstitutionB that increases the number of players substituted for the appropriate team by 1 if it is less than 3,
     // otherwise it displays “No more substitutions allowed”.
     public void SubstitutionA() {
@@ -63,6 +73,8 @@ public class SoccerGame extends BallGame{
             System.out.println("No more substitution allowed");
         }
     }
+
+
 
     public String getReferee() {
         return Referee;

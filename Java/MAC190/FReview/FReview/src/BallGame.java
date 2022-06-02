@@ -13,10 +13,10 @@ public class BallGame {
     public BallGame(String firstTeam, String secondTeam, int numOfPlayerInEachTeam, int numOfSubstitutes, int firstTeamScore, int secondTeamScore) throws Exception {
         this.FirstTeam = firstTeam;
         this.SecondTeam = secondTeam;
-        if(numOfPlayerInEachTeam <= 0) {
+        if(numOfPlayerInEachTeam < 0) {
             throw new Exception("Number of Player can't be zero or negative number");
         }
-        if(numOfSubstitutes <= 0) {
+        if(numOfSubstitutes < 0) {
             throw new Exception("Max Substitutes can't be negative");
         }
         if(firstTeamScore < 0 || secondTeamScore < 0) {

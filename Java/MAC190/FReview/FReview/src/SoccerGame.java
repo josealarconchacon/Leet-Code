@@ -19,13 +19,6 @@ public class SoccerGame extends BallGame{
         this.SubstitutedB = substitutedB;
     }
 
-    public SoccerGame(int substitutedA, int substitutedB, String referee) throws Exception {
-        super();
-        this.SubstitutedB = substitutedB;
-        this.SubstitutedA = substitutedA;
-        this.Referee = referee;
-    }
-
     // - Override the method display to display all private attributes.
     public void Display() {
         super.Display();
@@ -55,6 +48,12 @@ public class SoccerGame extends BallGame{
     }
 
     //- Overload TeamAScored and TeamBScored (no input parameter) to increase the score of the appropriate team by 1.
+    public void TeamAScored() throws Exception {
+        this.setFirstTeamScore(this.getFirstTeamScore() + 1);
+    }
+    public void TeamBScored() throws Exception {
+        this.setSecondTeamScore(this.getSecondTeamScore() + 1);
+    }
 
 
     // Provide a method SubstitutionA, SubstitutionB that increases the number of players substituted for the appropriate team by 1 if it is less than 3,

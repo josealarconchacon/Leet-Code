@@ -16,8 +16,13 @@ public class Main {
 
         G.Display();
         try {
-            SoccerGame S = new SoccerGame(2,3,"Tom");
+            SoccerGame S = new SoccerGame();
             System.out.println("-------------------------------------------------");
+            S.Display();
+            S.TeamAScored();
+            S.TeamBScored();
+            S.SubstitutionA();
+            S.SubstitutionB();
             S.Display();
         } catch (Exception e) {
             System.out.println("Exception Message: " + e.getMessage());
